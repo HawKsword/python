@@ -1,0 +1,14 @@
+移除list中满足某种条件的元素:
+for x in List[:]:
+  if x == val:
+    List.remove(x)
+    
+    
+错误用法:
+for x in List:
+  if x == val:
+    List.remove(x)    
+    
+错误原因:
+https://stackoverflow.com/questions/1207406/remove-items-from-a-list-while-iterating
+    
