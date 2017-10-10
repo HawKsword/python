@@ -1,0 +1,15 @@
+>>> import collections
+>>> a
+[1, 3, 1, 5]
+>>> b=collections.Counter(a)
+>>> b
+Counter({1: 2, 3: 1, 5: 1})
+>>> for i in b:
+...     print i
+...
+1
+3
+5
+>>>
+
+collections.Counter(a)功能是统计a中的元素出现了多少次,是可迭代对象
