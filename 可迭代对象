@@ -1,0 +1,10 @@
+str(num) 是一个可迭代对象（iterable）
+>>> str(123)
+'123'
+>>> for i in str(123):
+...     print i
+...
+1
+2
+3
+>>>
