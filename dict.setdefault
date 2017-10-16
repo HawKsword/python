@@ -19,3 +19,5 @@ print "Value : %s" %  dict.setdefault('Taobao', '淘宝')
 Value : 菜鸟教程
 Value : 淘宝
 
+dict.values()
+[value1,value2,value3]
